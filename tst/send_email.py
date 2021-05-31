@@ -6,9 +6,9 @@ from email.mime.text import MIMEText
 
 port = 465  # For SSL
 smtp_server = "smtp.gmail.com"
-sender_email = "adhyaromemes@gmail.com"  # Enter your address
+sender_email = "****"  # Enter your address
 # receiver_email = "tchiring08@gmail.com"  # Enter receiver address
-password = "sonyericsson12345"
+password = "*****"
 subject = "Important! Password Reset!"
 context = ssl.create_default_context()
 
@@ -45,4 +45,4 @@ Please change this password after logging in.
 
 
 if __name__ == '__main__':
-    send_mail('tchiring08@gmail.com')
+    send_mail('****')
